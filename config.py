@@ -11,7 +11,7 @@ class Config:
 
     PICS = (environ.get('PICS', 'https://graph.org/file/e223aea8aca83e99162bb.jpg'))
     
-    DATABASE_URI = environ.get("DATABASE_URI", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://mahesh81:mahesh81@cluster0.ozx17.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
